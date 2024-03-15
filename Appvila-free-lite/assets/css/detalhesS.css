@@ -1,0 +1,11 @@
+.navbar-brand img{
+    height: 8vh;
+}
+
+.section-title h2{
+    color: white;
+    font-size: 5vh;
+}
+p#textoInicio{
+    color: rgb(255, 255, 255);
+}
