@@ -18,3 +18,9 @@ p#textoInicio{
     flex-direction: row;
     justify-content: space-around;
 }
+#vmv{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
