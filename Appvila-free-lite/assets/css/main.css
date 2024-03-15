@@ -45,6 +45,7 @@ button:focus,
   border-color: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  color: #000;
 }
 
 .form-check-input:checked {
@@ -1419,7 +1420,7 @@ ol {
     padding: 18px 0 !important;
   }
   .header .mobile-menu-btn .toggler-icon {
-    background-color: #fff;
+    background-color: #000000;
   }
   .header .button {
     margin: 0 !important;
@@ -1429,7 +1430,7 @@ ol {
     top: 67px !important;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -1490,7 +1491,7 @@ ol {
     visibility: visible;
   }
   .header .navbar-nav .nav-item .sub-menu li.active {
-    background: #fff !important;
+    background: #000000 !important;
     color: #FF8C00 !important;
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item {
@@ -1500,7 +1501,7 @@ ol {
     padding: 10px 12px !important;
   }
   .header .navbar-nav .nav-item .sub-menu li:hover {
-    background: #fff !important;
+    background: #000000 !important;
     color: #FF8C00 !important;
   }
   .header .navbar-nav .nav-item a {
@@ -1523,7 +1524,7 @@ ol {
     top: 58px !important;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -1565,6 +1566,7 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item a {
     padding: 12px 12px;
+    color: #000;
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item a:hover {
     color: #FF8C00 !important;
@@ -1582,6 +1584,7 @@ ol {
   .header .navbar-nav .nav-item a::after {
     opacity: 1;
     visibility: visible;
+    color: #fefefe;
   }
   .header .navbar-nav .nav-item .sub-menu li.active {
     background: #fff !important;
@@ -1589,9 +1592,11 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item {
     margin: 0 !important;
+    color: #ffffff;
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item a {
     padding: 10px 12px !important;
+    color: #ffffff;
   }
   .header .navbar-nav .nav-item .sub-menu li:hover {
     background: #fff !important;
@@ -1613,8 +1618,8 @@ ol {
 
 .header .button .btn {
   background-color: transparent;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #FF8C00;
+  color: #FF8C00;
   padding: 12px 30px;
 }
 
@@ -2223,8 +2228,8 @@ ol {
 }
 
 .features .single-feature {
-  text-align: center;
-  padding: 25px;
+  text-align: left;
+  padding: 35px;
   background-color: #fff;
   border-radius: 6px;
   position: relative;
