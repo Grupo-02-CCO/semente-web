@@ -2223,8 +2223,8 @@ ol {
 }
 
 .features .single-feature {
-  text-align: left;
-  padding: 35px;
+  text-align: center;
+  padding: 25px;
   background-color: #fff;
   border-radius: 6px;
   position: relative;
@@ -2447,7 +2447,11 @@ ol {
     Call To Action CSS
 ========================================*/
 .call-action {
-  background-color: #FF8C00;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url(../../assets/images/imagensTopicos/laranja.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .call-action .cta-content {
@@ -2552,7 +2556,7 @@ ol {
 
 .error-area .error-content h1 {
   font-size: 100px;
-  color: #ff6b81;
+  color: #FF8C00;
   margin-bottom: 25px;
   font-weight: 800;
   line-height: 100px;
@@ -2687,7 +2691,7 @@ ol {
 }
 
 .footer .single-footer.f-about .social li a:hover {
-  color: #ff6b81;
+  color: #FF8C00;
 }
 
 .footer .single-footer.f-about .social li:last-child {
@@ -2711,7 +2715,7 @@ ol {
 }
 
 .footer .single-footer.f-about .copyright-text a:hover {
-  color: #ff6b81;
+  color: #FF8C00;
 }
 
 .footer .single-footer.f-link li {
@@ -2730,7 +2734,7 @@ ol {
 }
 
 .footer .single-footer.f-link li a:hover {
-  color: #ff6b81;
+  color: #FF8C00;
 }
 
 .footer .single-footer h3 {
@@ -2831,7 +2835,7 @@ ol {
 }
 
 .footer .footer-newsletter .title p a {
-  color: #ff6b81;
+  color: #FF8C00;
   text-decoration: underline;
 }
 
@@ -2941,7 +2945,7 @@ ol {
 
 .footer .footer-newsletter .newsletter-form .button .btn {
   display: inline-block;
-  background: #ff6b81;
+  background: #FF8C00;
   color: #fff;
   height: 48px;
   line-height: 48px;
@@ -2953,6 +2957,6 @@ ol {
 }
 
 .footer .footer-newsletter .newsletter-form .button .btn:hover {
-  color: #ff6b81;
+  color: #FF8C00;
   background-color: #fff;
 }

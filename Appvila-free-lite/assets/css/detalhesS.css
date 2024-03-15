@@ -9,3 +9,12 @@
 p#textoInicio{
     color: rgb(255, 255, 255);
 }
+.cardPerson p, img{
+    margin-bottom: 5%;
+}
+.alignI{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
