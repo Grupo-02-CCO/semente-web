@@ -2277,7 +2277,7 @@ ol {
 .our-achievement {
   background-color: #FF8C00;
   text-align: center;
-  padding: 130px 0;
+  padding: 40px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2310,18 +2310,18 @@ ol {
 }
 
 .our-achievement .single-achievement h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 800;
   display: block;
   margin-bottom: 5px;
   color: #000;
+  cursor: default;
 }
 
 .our-achievement .single-achievement p {
-  font-size: 15px;
+  font-size: 60px;
   color: #000;
   font-weight: 500;
-  text-transform: capitalize;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
