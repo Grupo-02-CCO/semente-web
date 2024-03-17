@@ -55,9 +55,30 @@ p#textoInicio{
     flex-direction: row;
     justify-content: space-around;
 }
+
+#pricing{  /* valores */
+    padding: 35px 0;
+    .section-title > p, h2{
+        margin: 0;
+    }
+}
 #vmv{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-around;
+    .single-table{
+        margin: 0;
+        min-width: 350px;
+    }
+    .single-table h4{
+        color: #FF8C00;
+    }
+    .single-table p, li{
+        color: #000;
+    }
+}
+
+.footer, .footer *{
+    padding: 0;
 }
