@@ -1,5 +1,6 @@
 .navbar-brand img{
     height: 8vh;
+    object-fit: contain;
 }
 
 .section-title h2{
@@ -10,8 +11,12 @@ p#textoInicio{
     color: rgb(255, 255, 255);
 }
 
-*:has(> .cardPerson){
-    width: 20%;
+.row:has(> * > .cardPerson){
+    justify-content: center;
+}
+.col-12:has(> .cardPerson):has(> .cardPerson){
+    min-width: 300px;
+    width: 16.5vw;
 }
 .cardPerson::before {
     content: "";
@@ -40,12 +45,18 @@ p#textoInicio{
     border-radius: inherit;
 }
 .cardPerson{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     > img {
         object-fit: cover;
         aspect-ratio: 1/1;
         width: 150px;
         border-radius: 100%;
         margin-bottom: 10px;
+    }
+    > .alignI > * {
+        margin: 0 10px;
     }
 }
 

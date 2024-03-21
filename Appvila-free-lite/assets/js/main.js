@@ -29,7 +29,7 @@ Author: GrayGrids
           logo.src = 'assets/images/logo/logoS.svg';
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo/logoS.svg';
+          logo.src = 'assets/images/logo/logomarca.png';
         }
 
         // show or hide the back-top-top button
